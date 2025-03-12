@@ -20,7 +20,7 @@ This project uses **Genetic Algorithms (GA)** to optimize furniture arrangement 
 ## 🛠 Installation & Usage  
 1️⃣ **Clone the repository:**  
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/sabeera84/furniture_arrangement.git
 cd YOUR_REPO
 ```
   
