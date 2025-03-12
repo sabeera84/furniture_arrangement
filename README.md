@@ -13,7 +13,7 @@ This project uses **Genetic Algorithms (GA)** to optimize furniture arrangement 
 📂 Project Root
  ├── app.py                 # FastAPI backend
  ├── dataset_GA_visual.py   # GA-based dataset generation & visualization
- ├── ui.py                  # UI logic (if applicable)
+ ├── ui.py                  # streamlit UI
  ├── README.md              # Project documentation
 ```
 
@@ -43,11 +43,14 @@ curl -X 'POST' \
   -d '{"width": 10, "height": 10, "num_furniture": 3}'
 ```
 
+5️⃣ **Run the Streamlit UI**
+Start the frontend interface using:
+```bash
+streamlit run ui.py
+```
+
+
 ## 📊 Visualization  
 The optimized layout is displayed using **Matplotlib**. It shows room dimensions and furniture placements based on the GA-generated best configuration.
 
-## 🎯 Next Steps  
-✅ Improve UI for interactive input  
-✅ Enhance GA scoring for better furniture placement  
-✅ Integrate real-world datasets  
 
